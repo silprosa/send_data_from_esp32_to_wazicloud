@@ -1,22 +1,22 @@
- ESP32 DHT11 Sensor Data to WaziCloud
+ ## ESP32 DHT11 Sensor Data to WaziCloud
 
 This project demonstrates how to read temperature and humidity data from a DHT11 sensor using an ESP32 microcontroller and send the data to WaziCloud.
 I used the  developed this project using PlatformIO in VSCode to efficiently manage dependencies, build, and upload the code to my ESP32 microcontroller.
 
 The project includes the following components:
-- ESP32 microcontroller: Used for reading sensor data and connecting to WiFi.
+- **ESP32 microcontroller**: Used for reading sensor data and connecting to WiFi.
 - **DHT11 sensor**: Measures temperature and humidity
 - **WaziCloud**:platform where the sensor data is sent and stored.
 
 The code reads temperature and humidity from the DHT11 sensor, connects to WiFi, and sends the data to WaziCloud at regular intervals.
 
-Components
+## Components
 
 - ESP32 Development Board
 - DHT11 Temperature and Humidity Sensor
 - Jumper Wires
 - Breadboard
- Wiring
+## Wiring
 
 | DHT11 Pin | ESP32 Pin |
 |-----------|-----------|
@@ -24,7 +24,7 @@ Components
 | GND       | GND       |
 | Data      | GPIO 27   |
 
-Setup
+## Setup
  Prerequisites
 
 - **PlatformIO Core (CLI) or PlatformIO IDE for VSCode**
